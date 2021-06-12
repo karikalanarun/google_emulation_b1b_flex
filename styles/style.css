@@ -1,0 +1,54 @@
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.rounded {
+    border-radius: 50%;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header > a {
+    font-size: 13px;
+    font-family: Roboto;
+    color: rgba(0,0,0, 0.87);
+    text-decoration: none;
+    padding-right: 15px;
+}
+.header > a:hover {
+    text-decoration: underline;
+}
+
+.profile-photo {
+    width: 32px;
+    height: 32px;
+}
+
+body, html {
+    height: 100%;
+}
+
+.main-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-area {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
